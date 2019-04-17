@@ -1,6 +1,7 @@
 package com.gecx.service;
 
 import com.gecx.config.FeignClientConfig;
+import com.gecx.service.fallback.IProductClientServiceFallbackFactory;
 import com.gecx.vo.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
-@FeignClient(name = "MICROCLOUD-PROVIDER-PRODUCT", configuration = FeignClientConfig.class)
+@FeignClient(name = "MICROCLOUD-PROVIDER-PRODUCT", configuration = FeignClientConfig.class, fallbackFactory = IProductClientServiceFallbackFactory.class)
 public interface IProductClientService {
 
     @RequestMapping(value = "/prodcut/get/{id}")

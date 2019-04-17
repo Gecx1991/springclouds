@@ -1,8 +1,10 @@
 package com.gecx.config;
 
+import feign.Logger;
+import feign.auth.BasicAuthRequestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.client.support.BasicAuthenticationInterceptor;
+
 
 /**
  * @author Gecx
@@ -13,8 +15,12 @@ import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 public class FeignClientConfig {
 
     @Bean
-    public BasicAuthenticationInterceptor getBasicAuthRequestInterceptor() {
-        return new BasicAuthenticationInterceptor("admin", "admin");
+    public BasicAuthRequestInterceptor getBasicAuthRequestInterceptor() {
+        return new BasicAuthRequestInterceptor("admin", "123456");
+    }
+
+    public Logger.Level getFeignLoggerLevle() {
+        return feign.Logger.Level.FULL;
     }
 
 }

@@ -3,16 +3,24 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/microcloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-consumer-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-eureka3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-provider-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-provider-product-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-provider-product2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-provider-product3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-provider-user-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud/microcloud-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud/microcloud-zuul-gateway" charset="UTF-8" />
   </component>
 </project>

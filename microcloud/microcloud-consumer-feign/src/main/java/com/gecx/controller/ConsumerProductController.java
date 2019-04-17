@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * @author Gecx
- * @Description: TODO
+ * @Description: Feign = RestTempate + HttpHeader + Ribbon + Eureka 综合体，使用feign大大增加了代码的灵活程度
  * @date 2019/3/18 11:28
  */
 @RestController

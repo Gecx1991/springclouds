@@ -7,36 +7,52 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microcloud-api" />
+        <module name="microcloud-config" />
+        <module name="microcloud-config-client" />
         <module name="microcloud-consumer-feign" />
+        <module name="microcloud-consumer-hystrix" />
+        <module name="microcloud-consumer-hystrix-dashboard" />
         <module name="microcloud-consumer-ribbon" />
+        <module name="microcloud-consumer-turbine" />
         <module name="microcloud-eureka" />
         <module name="microcloud-eureka2" />
         <module name="microcloud-eureka3" />
         <module name="microcloud-provider-product" />
         <module name="microcloud-provider-product (1)" />
         <module name="microcloud-provider-product (2)" />
+        <module name="microcloud-provider-product-hystrix" />
         <module name="microcloud-provider-product2" />
         <module name="microcloud-provider-product3" />
+        <module name="microcloud-provider-user-hystrix" />
         <module name="microcloud-security" />
         <module name="microcloud-service" />
+        <module name="microcloud-zuul-gateway" />
         <module name="microcloudconsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microcloud" target="1.8" />
       <module name="microcloud-api" target="1.8" />
+      <module name="microcloud-config" target="1.8" />
+      <module name="microcloud-config-client" target="1.8" />
       <module name="microcloud-consumer-feign" target="1.8" />
+      <module name="microcloud-consumer-hystrix" target="1.8" />
+      <module name="microcloud-consumer-hystrix-dashboard" target="1.8" />
       <module name="microcloud-consumer-ribbon" target="1.8" />
+      <module name="microcloud-consumer-turbine" target="1.8" />
       <module name="microcloud-eureka" target="1.8" />
       <module name="microcloud-eureka2" target="1.8" />
       <module name="microcloud-eureka3" target="1.8" />
       <module name="microcloud-provider-product" target="1.8" />
       <module name="microcloud-provider-product (1)" target="1.8" />
       <module name="microcloud-provider-product (2)" target="1.8" />
+      <module name="microcloud-provider-product-hystrix" target="1.8" />
       <module name="microcloud-provider-product2" target="1.8" />
       <module name="microcloud-provider-product3" target="1.8" />
+      <module name="microcloud-provider-user-hystrix" target="1.8" />
       <module name="microcloud-security" target="1.8" />
       <module name="microcloud-service" target="1.8" />
+      <module name="microcloud-zuul-gateway" target="1.8" />
       <module name="microcloudconsumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>

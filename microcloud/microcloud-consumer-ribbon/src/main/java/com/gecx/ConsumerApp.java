@@ -14,6 +14,6 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @RibbonClient(name = "MICROCLOUD-PROVIDER-PRODUCT", configuration = RibbonConfig.class)
 public class ConsumerApp {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApp.class);
+        SpringApplication.run(ConsumerApp.class, args);
     }
 }

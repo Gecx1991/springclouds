@@ -21,6 +21,14 @@
         <module>microcloud-eureka2</module>
         <module>microcloud-eureka3</module>
         <module>microcloud-service</module>
+        <module>microcloud-provider-product-hystrix</module>
+        <module>microcloud-consumer-hystrix</module>
+        <module>microcloud-consumer-hystrix-dashboard</module>
+        <module>microcloud-provider-user-hystrix</module>
+        <module>microcloud-consumer-turbine</module>
+        <module>microcloud-zuul-gateway</module>
+        <module>microcloud-config</module>
+        <module>microcloud-config-client</module>
     </modules>
 
     <properties>
@@ -40,7 +48,9 @@
             <dependency> <!-- SpringCloud离不开SpringBoot，所以必须要配置此依赖包 -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.1.2.RELEASE</version>
+                <!--<version>2.1.2.RELEASE</version>-->
+                <!--zuul目前对springboot2.1.2支持并不好-->
+                <version>2.0.7.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
