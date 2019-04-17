@@ -1,0 +1,20 @@
+server:
+  port: 7002
+
+eureka:
+  instance: #eureka 实例定义
+    hostname: eureka2 #定义eureka实例所在主机名称
+  server:
+    eviction-interval-timer-in-ms: 60000 #设置清理时间间隔，设置后时间使用毫秒为单位(默认60秒)
+    enable-self-preservation: false #设置false表示关闭保护模式
+  client:
+    fetch-registry: false #是否从eureka获取注册信息(默认true)
+    register-with-eureka: false #是否将自己注册到eureka(默认true)
+    service-url:
+      defaultZone: http://admin:admin@eureka1:7001/eureka,http://admin:admin@eureka2:7002/eureka,http://admin:admin@eureka3:7003/eureka
+spring:
+#  profiles: dev-7002
+  security:
+    user:
+      name: admin
+      password: admin
